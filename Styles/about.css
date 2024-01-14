@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@200&display=swap');
+
+
+.apresentacao_sobre{
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 5%;
+padding-right: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.apresentacao_sobre_gap{
+    display: flex;
+    margin: 5%;
+    padding: 5%;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 50px;
+}
+
+.titulo_sobre{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.conteudo_sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conteudo_sobre_texto{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
