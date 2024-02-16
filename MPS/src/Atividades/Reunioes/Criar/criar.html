@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Reunião</title>
+    <link rel="stylesheet" href="criar.css">
+</head>
+
+<body>
+    <section class="Elementos">
+        <h1 class="Titulo">Reuniões</h1>
+        <section class="Entradas">
+            <div class="Esquerda">
+                <input class="Entrada" type="text" placeholder="Nome">
+                <input class="Entrada" type="text" placeholder="Descrição">
+                <input class="Entrada" type="text" placeholder="Assunto">
+            </div>
+            <div class="Direita">
+                <input class="Entrada" type="text" placeholder="Data">
+                <input class="Entrada" type="text" placeholder="Horário">
+            </div>
+        </section>
+        <button class="Botaoadicionar">Adicionar</button>
+    </section>
+
+    <script>
+
+        document.querySelector(".Botaoadicionar").addEventListener("click", function(event){
+            window.location.href = "./criado.html"
+
+        })
+    </script>
+</body>
+
+</html>

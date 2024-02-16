@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="/src/Atividades/Reunioes/estilo.css">
+</head>
+<body>
+    <section class="Elementos">
+    <h1 class="Titulo">Reuniões</h1>
+    <br>
+    <div class="AtividadeI">
+    <button class="Botaoeditar">Desenvolvimento Mobile.</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<div class="AtividadeII">
+    <button class="Botaoeditar">Definição de prazos.</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<div class="AtividadeIII">
+    <button class="Botaoeditar1">Entrevista com RH.</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<br>
+<br>
+<br>
+
+    <button class="Botaocriar">Criar Reunião</button>
+    <button class="retornar"></button>
+
+<script>
+    document.querySelector(".Botaocriar").addEventListener("click", function(event) {
+        window.location.href = "./Criar/criar.html"; 
+    });
+    document.querySelector(".Botaoeditar1").addEventListener("click", function(event) {
+        window.location.href = "/src/Atividades/Reunioes/Editar/editar.html"; 
+    });
+    document.querySelector(".retornar").addEventListener("click", function(event){
+        window.location.href = "/src/Atividades/atividades.html"
+    })
+</script>
+</body>
+</html>

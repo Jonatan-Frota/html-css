@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar atividade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="Elementos">
+        <h1 class="Titulo">Tarefas</h1>
+        <div class="AtividadeI">
+        <input class="Botaoeditar" type="text" placeholder="Nome:">
+
+    </div>
+    <div class="AtividadeII">
+        <input class="Botaoeditar" type="text" placeholder="Descrição:">
+     
+    </div>
+    <div class="AtividadeIII">
+        <input class="Botaoeditar" type="text" placeholder="Tipo:"> 
+
+    </div>
+        <button class="Botaocriar">Adicionar</button>
+    </section>
+
+    <script>
+        document.querySelector(".Botaocriar").addEventListener("click", function(event){
+        
+        alert("Atividade adicionada com sucesso!")
+
+        window.location.href = "./tarefasadd.html"; 
+        
+        
+        })
+    </script>
+</body>
+</html>

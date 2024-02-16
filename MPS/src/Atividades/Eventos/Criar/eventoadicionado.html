@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="/src/Atividades/Eventos/estilo.css">
+</head>
+<body>
+    <section class="Elementos">
+    <h1 class="Titulo">Eventos</h1>
+    <div class="AtividadeI">
+    <button class="Botaoeditar">Aniversário do Jonny</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<div class="AtividadeII">
+    <button class="Botaoeditar">Reunião do Projeto.</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<div class="AtividadeIII">
+    <button class="Botaoeditar1">Aniversário da professora Diana.</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+
+    <button class="Botaocriar">Criar Evento</button>
+
+    <button class="retornar"></button>
+</section>
+<script>
+    document.querySelector(".Botaocriar").addEventListener("click", function(event) {
+        window.location.href = "./Criar/criar.html"; 
+    });
+    document.querySelector(".Botaoeditar1").addEventListener("click", function(event) {
+        window.location.href = "/src/Atividades/Eventos/Editar/editar.html"; 
+    });
+
+    document.querySelector(".retornar").addEventListener("click", function(event){
+        window.location.href = "/src/Atividades/atividades.html"
+    })
+</script>
+</body>
+</html>

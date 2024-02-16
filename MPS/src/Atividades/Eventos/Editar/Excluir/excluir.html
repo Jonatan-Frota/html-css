@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar tarefa</title>
+    <link rel="stylesheet" href="excluir.css">
+</head>
+<body>
+    <section class="Elementos">
+        <h1 class="Titulo">Eventos/Editar</h1>
+        <div class="AtividadeI">
+            <div class="Oi">
+             Nome:  <input class="Botaoeditar" placeholder="Aniversário da Professora Diana.">
+            </div>
+    </div>
+        <div class="Subelementos">
+            <div class="Geral">
+                <div>
+                    Descrição:  <input class="Botaoeditar" placeholder="Começar a buscar referências externas para o artigo">
+                    <br>
+                    <br>
+                </div>
+            <div>
+                    Tipo:  <input class="Botaoeditar" placeholder="Comemoração">
+                </div>
+                <div>
+                    Data:  <input class="Botaoeditar" placeholder="12/10/2024">
+                </div>
+            <div>
+                    Horário:  <input class="Botaoeditar" placeholder="18:00">
+                </div>
+                <div>
+                    Endereço:  <input class="Botaoeditar" placeholder="Av. das Torres - 348">
+                </div>
+          
+        </div>
+            <div class="Botoes">
+            <button class="Botaoexcluirmenor">Finalizar</button>
+            <button class="Botaoexcluirmaior">Excluir</button>
+        </div>
+        
+        </div>
+
+        <section class="Caixaconfirma">
+            <p class="Textoconfirma">    Você tem certeza que deseja excluir a <br>atividade?</p>
+            <div class="Botaoconfirmar">
+            <button class="Botaoconfirma">Confirmar</button>
+            <button class="Botaodesconfirma">Cancelar</button>
+        </div>
+        </section>
+
+    <script>
+       document.querySelector(".Botaoconfirma").addEventListener("click", function(event){
+        window.location.href = "/src/Atividades/Eventos/eventos.html"
+
+       })
+
+       document.querySelector(".Botaodesconfirma").addEventListener("click", function(event){
+        window.location.href = "/src/Atividades/Eventos/Criar/eventoadicionado.html"
+       })
+
+        
+    </script>
+</body>
+</html>

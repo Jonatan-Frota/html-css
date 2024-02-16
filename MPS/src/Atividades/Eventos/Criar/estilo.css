@@ -1,0 +1,81 @@
+body{
+    background-image: url("/imagens/subtema.jpeg");
+    background-repeat: no-repeat;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    background-size: cover;
+}
+
+.Titulo{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    background-color: rgba(128, 128, 128, 0.5); 
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+}
+
+.Elementos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    gap: 50px;
+}
+
+.Entradas{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+}
+.Esquerda{
+    display: flex;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Direita{
+    display: flex;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Entrada{
+    background-color: #CAC4FA;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    width: 500px;
+    height: 50px;
+    padding-left: 4%;
+    border-radius: 25px;
+    outline: none;
+    border-style: none;
+}
+
+.Botaoadicionar{
+    background-color: #BAEFB5;
+    border-style: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    border-radius: 20px;
+    width: 150px;
+    height: 80px;
+}
+
+.Botaoadicionar:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}

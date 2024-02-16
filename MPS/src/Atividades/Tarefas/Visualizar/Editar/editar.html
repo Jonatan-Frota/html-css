@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar tarefa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="Elementos">
+        <h1 class="Titulo">Tarefas/Editar</h1>
+        <div class="AtividadeI">
+            <div class="Oi">
+             Nome:  <input class="Botaoeditar" placeholder="Editar publicação de artigo científico.">
+            </div>
+    </div>
+        <div class="Subelementos">
+            <div class="Geral">
+                <div>
+                    Descrição:  <input class="Botaoeditar" placeholder="Começar a buscar referências externas para o artigo">
+                </div>
+            <div>
+                    Tipo:  <input class="Botaoeditar" placeholder="Academico">
+                </div>
+        </div>
+            <div class="Botoes">
+            <button class="Botaoexcluirmenor">Finalizar</button>
+        </div>
+        
+        </div>
+
+    <script>
+        document.querySelector(".Botaoexcluirmenor").addEventListener("click", function(event){
+        
+        alert("Atividade editada com sucesso!")
+
+        window.location.href = "./visualizaredit.html"; 
+        
+        })
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="excluido.css">
+</head>
+<body>
+    <section class="Elementos">
+    <h1 class="Titulo">Tarefas</h1>
+   
+<div class="AtividadeII">
+    <button class="Botaoeditar">Praticar apresentação de dança</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<div class="AtividadeIII">
+    <button class="Botaoeditar">Ir ao mercado</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+<div class="AtividadeIII">
+    <button class="Botaoeditar">Reunião no Meet</button>
+    <button class="Botaoconcluir">Concluir</button>
+</div>
+    <button class="Botaocriar">Criar Tarefa</button>
+    <button class="voltar"></button>
+</section>
+<script>
+    document.querySelector(".Botaocriar").addEventListener("click", function(event) {
+        window.location.href = "./Criar/criar.html"; 
+    });
+    document.querySelector(".Botaoeditar").addEventListener("click", function(event) {
+        window.location.href = "../Visualizar/editar.html"; 
+    });
+    document.querySelector(".voltar").addEventListener("click", function(event) {
+        window.location.href = "/src/Atividades/atividades.html"; 
+    });
+</script>
+</body>
+</html>

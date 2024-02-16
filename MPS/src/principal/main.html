@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="body">
+    <h1 class="Titulo">Sua Agenda Eletrônica</h1>
+
+    <section class="Principal">
+    <form id="loginForm">
+        <div class="CaixasEntrada">
+        <input class="usuariocaixa" type="text" id="usuario" placeholder="Usuário">
+        <input class="senhacaixa" type="password" id="senha" placeholder="Senha">
+    </div>
+    <div class="Botoes">
+        <button class="Entrar" type="submit">Entrar</button>
+    </form>
+    
+    <button class="Criar">Criar <br> Conta</button>
+</div>
+</section>
+</section>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+
+            var usuario = document.getElementById("usuario").value;
+            var senha = document.getElementById("senha").value;
+
+      
+            if (usuario === "Jonatan Frota" && senha === "1234") {
+                
+                window.location.href = "../BemVindo/bemvindo.html"; 
+            } else {
+                alert("Usuário e/ou senha incorretos!");
+            }
+        });
+    </script>
+</body>
+</html>

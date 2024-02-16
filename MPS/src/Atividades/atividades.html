@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="Items">
+    <h1 class="Titulo">Atividades</h1>
+    <section class="Botoes">
+    <div class="BotoesE">
+    <button class="Botaotarefas">Tarefas</button>
+    <button class="Botaoeventos">Eventos</button>
+    <button class="Botaoreunioes">Reuniões</button>
+</div>
+<div class="BotoesD">
+    <button class="Botaolembretes">Lembretes</button>
+    <button class="Botaolistas">Listas</button>
+    <button class="Botaoalarmes">Alarmes</button>
+</div>
+</section>
+<br>
+<button class="retornar"></button>
+</section>
+
+<script>
+    document.querySelector(".Botaotarefas").addEventListener("click", function(event) {
+        window.location.href = "./Tarefas/tarefas.html"; 
+    });
+
+    document.querySelector(".Botaoeventos").addEventListener("click", function(event) {
+        window.location.href = "./Eventos/eventos.html"; 
+    });
+
+    document.querySelector(".Botaoreunioes").addEventListener("click", function(event) {
+        window.location.href = "./Reunioes/reunioes.html"; 
+    });
+
+    document.querySelector(".retornar").addEventListener("click", function(event){
+        window.location.href = "/src/BemVindo/bemvindo.html"
+    })
+
+
+</script>
+</body>
+</html>

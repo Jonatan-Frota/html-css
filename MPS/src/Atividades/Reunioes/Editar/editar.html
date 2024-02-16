@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar tarefa</title>
+    <link rel="stylesheet" href="editar.css">
+</head>
+<body>
+    <section class="Elementos">
+        <h1 class="Titulo">Reunião/Editar</h1>
+        <div class="AtividadeI">
+            <div class="Oi">
+             Nome:  <input class="Botaoeditar" placeholder="Entrevista com RH.">
+            </div>
+    </div>
+        <div class="Subelementos">
+            <div class="Geral">
+                <div>
+                    Descrição:  <input class="Botaoeditar" placeholder="Realizar uma entrevista via meet com o RH.">
+                    <br>
+                    <br>
+                </div>
+            <div>
+                    Assunto:  <input class="Botaoeditar" placeholder="Reunião a fim de definir requisitos para contratação.">
+                </div>
+                <div>
+                    Data:  <input class="Botaoeditar" placeholder="18/07/2024">
+                </div>
+            <div>
+                    Horário:  <input class="Botaoeditar" placeholder="7:00">
+                </div>
+                <div>
+                    Status:  <input class="Botaoeditar" placeholder="Pendente">
+                </div>
+          
+        </div>
+            <div class="Botoes">
+            <button class="Botaoexcluirmenor">Finalizar</button>
+            <button class="Botaoexcluirmaior">Excluir</button>
+        </div>
+        
+        </div>
+
+    <script>
+        document.querySelector(".Botaoexcluirmenor").addEventListener("click", function(event){
+        
+
+        window.location.href = "/src/Atividades/Eventos/Criar/eventoadicionado.html"; 
+        
+        })
+
+        document.querySelector(".Botaoexcluirmaior").addEventListener("click", function(event){
+
+            window.location.href = "/src/Atividades/Reunioes/Editar/Excluir/excluir.html"; 
+            
+            })
+
+            document.querySelector(".Botaoexcluirmenor").addEventListener("click", function(event){
+
+                window.location.href = "/src/Atividades/Reunioes/Criar/criado.html"; 
+                
+                })
+
+        
+    </script>
+</body>
+</html>

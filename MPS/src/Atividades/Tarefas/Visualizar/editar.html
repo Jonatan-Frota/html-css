@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar tarefa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="Elementos">
+        <h1 class="Titulo">Tarefas</h1>
+        <div class="AtividadeI">
+            <button class="Botaoeditar">Editar publicação de artigo científico</button>
+            <button class="Botaoconcluir">Concluir</button>
+    </div>
+        <div class="Subelementos">
+            <div class="Geral">
+                <div class="ajuste">
+            <h4>Descrição: <h4 class="sub"> Alterar a porta para 8081 e verificar o servidor.</h4></h4>
+        </div>
+        <div class="ajuste">
+            <h4>Tipo: <h4 class="sub"> Academico.</h4></h4>
+        </div>
+        <div class="ajuste">
+            <h4>Status: <h4 class="sub">Pendente.</h4></h4>
+        </div>
+        </div>
+            <div class="Botoes">
+            <button class="Botaoeditarmenor">Editar</button>
+            <button class="Botaoexcluirmenor">Excluir</button>
+        </div>
+        
+        </div>
+
+    <script>
+        document.querySelector(".Botaoeditarmenor").addEventListener("click", function(event){
+        
+        window.location.href = "./Editar/editar.html"; 
+        
+        })
+
+        document.querySelector(".Botaoexcluirmenor").addEventListener("click", function(event){
+        
+        window.location.href = "../Editar/Excluir/excluir.html"; 
+            
+            })
+    </script>
+</body>
+</html>

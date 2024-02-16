@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url("/imagens/subtema.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.BotoesE{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    width: 400px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    
+}
+.BotoesD{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    width: 400px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+}
+
+.Botoes{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    display: flex;
+    gap: 50px;
+
+}
+
+.Items{
+    display: flex;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.Titulo{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 210px;
+    height: 50px;
+    padding-top: 1%;
+    background-color: rgba(128, 128, 128, 0.5); /* Este é um exemplo de cor cinza com uma opacidade de 50% */
+
+}
+
+.Botaotarefas{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: #CAC4FA;
+    border-style: none;
+    font-weight: 200;
+    height: 60px;
+
+}
+
+.Botaotarefas:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.Botaoeventos{
+    border-style: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #CAC4FA;
+    height: 60px;
+}
+
+.Botaoeventos:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.Botaoreunioes{
+    border-style: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #CAC4FA;
+    height: 60px;
+}
+
+.Botaoreunioes:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.Botaolembretes{
+    border-style: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #CAC4FA;
+    height: 60px;
+}
+
+.Botaolistas{
+    border-style: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #CAC4FA;
+    height: 60px;
+}
+
+.Botaoalarmes{
+    border-style: none;
+    font-size: 20px;
+    border-radius: 25px;
+    font-weight: 200;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: #CAC4FA;
+    height: 60px;
+}
